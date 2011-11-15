@@ -1,0 +1,8 @@
+<p>
+  <%= l(:message_bar_help) %>
+</p>
+<p>
+  <%= content_tag(:label, l(:content), :for => 'settings_content') %>
+  <%= text_area_tag('settings[content]', @settings['content'], :rows => 10, :cols => 80) %>
+
+</p>
