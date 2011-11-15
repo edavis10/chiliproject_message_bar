@@ -2,7 +2,7 @@
 
 Add a systemwide message to the top of every page
 
-<img src=https://s3.amazonaws.com/lss-public/images/message-bar-plugin.png>
+Screenshot: https://s3.amazonaws.com/lss-public/images/message-bar-plugin.png
 
 == Getting the plugin
 
