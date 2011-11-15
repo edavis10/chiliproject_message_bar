@@ -1,6 +1,6 @@
 = ChiliProject Message Bar
 
-Add a systemwide to the top of every page
+Add a systemwide message to the top of every page
 
 == Features
 

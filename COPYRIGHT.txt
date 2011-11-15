@@ -1,4 +1,4 @@
-Message Bar is a plugin that Add a systemwide to the top of every page
+Message Bar is a plugin that adds a systemwide message to the top of every page
 
 Copyright (C) 2011 Eric Davis
 
