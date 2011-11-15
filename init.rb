@@ -1,12 +1,12 @@
 require 'redmine'
 
 Redmine::Plugin.register :chiliproject_message_bar do
-  name 'Chiliproject Message Bar plugin'
-  author 'Author name'
-  description 'This is a plugin for ChiliProject'
-  version '0.0.1'
-  url 'http://example.com/path/to/plugin'
-  author_url 'http://example.com/about'
+  name 'Message Bar plugin'
+  author 'Eric Davis'
+  description 'Add a systemwide message to the top of every page'
+  version '0.1.0'
+  url 'https://projects.littlestreamsoftware.com/projects/chiliproject_message_bar'
+  author_url 'http://www.littlestreamsoftware.com'
 
   settings(:partial => 'settings/message_bar_settings',
            :default => {
