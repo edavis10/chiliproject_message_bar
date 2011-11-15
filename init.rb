@@ -7,5 +7,10 @@ Redmine::Plugin.register :chiliproject_message_bar do
   version '0.0.1'
   url 'http://example.com/path/to/plugin'
   author_url 'http://example.com/about'
+
+  settings(:partial => 'settings/message_bar_settings',
+           :default => {
+             'content' => ''
+           })
 end
 require 'chiliproject_message_bar/hooks/view_layouts_base_body_bottom_hook'
